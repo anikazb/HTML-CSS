@@ -1,93 +1,16 @@
-<!--using css for styling the buttons-->
-<style>
-.subscribe-button{
-    background-color: rgb(198, 15, 15);
-    color:white;
-    border-color:rgb(199, 40, 40);
-    height:35px;
-    width:115px;
-    border-radius:4px;
-    cursor:pointer; 
-   transition: color 1s;
-   margin-left:20px;
-   margin-right:20px;
-
-} 
-.subscribe-button:hover{
-    background-color:green;
-    border-color:rgb(1, 89, 1);
-    color:yellow;
-}
-.subscribe-button:active{
-     background-color:blue;
-    border-color:rgb(3, 113, 203);
-}
 
 
-    .join-button{
-     background-color:white;
-     color:rgb(73, 73, 255);
-     height: 36px;
-     width: 80px;
-     border-radius:3px;
-     border-color:rgb(19, 19, 249);
-     cursor:pointer;
-     font-weight: bold;
-     transition:background-color 0.9s,
-                color 0.9s;
-    }
-    .join-button:hover{
-        background-color: rgb(31, 31, 243);
-        color:white;
-        border-color:rgb(31, 31, 243);
-        
-    }
-    .join-button:active{
-    opacity:0.5;
-    }
-    
-    .tweet-button{
-        background-color: rgb(0, 183, 255);
-        color:white;
-        border-color:rgb(55, 189, 243);
-        height: 34px;
-        width:70px;
-        border-radius:17px;
-        cursor:pointer;
-        font-weight: bold;
-        font-size:15px;
-        transition:box-shadow 1s;
-       
-    } 
-    .tweet-button:hover{
-        box-shadow:3px 3px 10px rgb(122, 122, 225) ; /*horizontal,vertical,blur,color */
-    }
-
-    .save-button{
-        background-color:white;
-        color:black;
-        border-color:black;
-        cursor:pointer;
-       font-size: 20px;
-       font-weight:bold; 
-       margin-top: 12px;
-       border-radius:5px;
-       transition:opacity 1s;
-       padding:12px ;
-       /*padding is a better alternative to height and width*/
-    }
-
-    .save-button:hover{
-        background-color:black;
-        color:white;
-        opacity:0.7;
-        
-    }
-    
-    
-</style>
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--void element link-->
+        <link rel="stylesheet" href="buttons.css">
+    </head>
+    <body>
 <button class="subscribe-button">SUBSCRIBE</button> <!--using html for buttons-->
 <button class="join-button">JOIN</button>
 <button class="tweet-button">Tweet</button>
 <button class="save-button">Save your password</button>
+
+    </body>
+</html>

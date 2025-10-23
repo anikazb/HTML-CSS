@@ -1,0 +1,62 @@
+.back{
+    background-color:white;
+    color:black;
+font-size: 13px ;
+font-weight:light;
+border-color:lightgray;
+padding-left :4px;
+padding-left: 4px;
+padding-top :9px;
+padding-bottom:9px;
+border-radius:4px;
+margin-right: 5px;
+transition:opacity 0.8s ;
+}
+.back:hover{ 
+color:rgb(4, 4, 167);
+    
+}
+.back:active{
+    opacity:0.8px;
+     background-color: black; 
+color:white;
+}
+
+
+.next{
+    background-color:white;
+    color:black;
+font-size: 13px ;
+font-weight:light;
+border-color:lightgray;
+padding-left :4px;
+padding-right: 4px;
+padding-top :9px;
+padding-bottom:9px;
+border-radius:4px;
+margin-left: 5px;
+transition:opacity 0.8s ;
+}
+.next:hover{ 
+color:rgb(4, 4, 167);
+    
+}
+.next:active{
+    opacity:0.8px;
+     background-color: black; 
+color:white;
+}
+  .stretch{
+    background-color:green;
+    color:white;
+    padding-left :19px;
+    padding-right:19px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    cursor:pointer;
+  }
+  .stretch:hover{
+    
+        font-family:"Helvetica Neue";
+    font-stretch:extra-expanded;
