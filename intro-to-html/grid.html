@@ -1,0 +1,71 @@
+
+<!--grid maintains the alignment better-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grid Practice
+        </title>
+    </head>
+    <body>
+        <!--nested div-->
+        <div style="
+        display:grid;
+        grid-template-columns: 100px 100px 100px;
+          column-gap:10px;">
+            <div style="background-color: aqua;
+                         " >div-1<br> text</div>
+            <div style="background-color:plum ; 
+                        ">div-2</div>
+            <div style="background-color:yellow; 
+                        ">div-3</div>
+        </div>
+         <div style="
+        display:grid;
+        grid-template-columns: 100px 100px 100px;
+                 margin-top:10px;
+                 column-gap:8px;">
+            <div style="background-color: aqua;
+                         " >div-1<br> text</div>
+            <div style="background-color:plum ; 
+                      ">div-2</div>
+            <div style="background-color:yellow; 
+                        ">div-3</div>
+        </div>
+
+        <div style="
+        display:grid;
+        grid-template-columns: 100px 1fr 1fr;
+                 margin-top:10px;
+                 column-gap:5px ;">
+            <div style="background-color: aqua;
+                         " >div-1<br> text</div>
+            <div style="background-color:plum ; 
+                      ">div-2 1fr</div>
+           <div style="background-color:yellow; 
+                       ">div-3 1fr</div>
+                      </div>
+
+ <div style="
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+                 margin-top:10px;
+                 column-gap:15px ;
+                 row-gap:10px;
+                ">
+            <div style="background-color: aqua; height: 200px;
+                         " >div-1<br> text</div>
+            <div style="background-color:plum ; height: 200px;
+                      ">div-2 1fr</div>
+           <div style="background-color:yellow; height: 200px;
+                       ">div-3 1fr</div>
+           <div style="background-color: aqua;height: 200px;
+                         " >div-1<br> text</div>
+            <div style="background-color:plum ; height: 200px;
+                      ">div-2 1fr</div>
+           <div style="background-color:yellow; height: 200px;
+                       ">div-3 1fr</div>
+
+</div>
+    </body>
+</html>
