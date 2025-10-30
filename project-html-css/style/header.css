@@ -1,0 +1,22 @@
+
+.header{
+    display:flex;
+    flex-direction:row;
+    border-color: blue;
+    border-width: 5px;
+    height:50px;
+    justify-content: space-between;
+     align-items: center;
+
+}
+.middle{
+ background-color: rgb(249, 249, 127);
+ 
+}
+.left{
+    background-color: rgb(127, 249, 133);
+}
+.right{
+    background-color: rgb(127, 186, 249);
+}
+
