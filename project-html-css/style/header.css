@@ -1,22 +1,32 @@
-
+.search-bar{
+    display:block;
+    font: size 15px ;
+    color: blue ;
+   padding-left: 5px;
+}
 .header{
     display:flex;
     flex-direction:row;
-    border-color: blue;
-    border-width: 5px;
     height:50px;
     justify-content: space-between;
-     align-items: center;
 
 }
 .middle{
  background-color: rgb(249, 249, 127);
+ flex:1;
+ margin-right:20px;
+ margin-left:10px ;
+ max-width: 500px;
  
 }
 .left{
     background-color: rgb(127, 249, 133);
+   
+     width:250px;
 }
 .right{
     background-color: rgb(127, 186, 249);
+    width:200px;
+    
 }
 
