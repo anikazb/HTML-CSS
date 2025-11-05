@@ -20,13 +20,18 @@
  
 }
 .left{
-    background-color: rgb(127, 249, 133);
-   
+    background-color: rgb(254, 255, 254);
      width:250px;
+
 }
 .right{
     background-color: rgb(127, 186, 249);
     width:200px;
     
 }
-
+.fst{
+height:20px;
+}
+.snd{
+   height:20px; 
+}
