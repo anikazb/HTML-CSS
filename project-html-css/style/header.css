@@ -7,7 +7,7 @@
 .header{
     display:flex;
     flex-direction:row;
-    height:50px;
+    height:40px;
     justify-content: space-between;
 
 }
@@ -34,4 +34,14 @@ height:20px;
 }
 .snd{
    height:20px; 
+}
+.trd{
+     height:20px; 
+}
+.frth{
+   height:20px; 
+
+} 
+.fifth{
+   height:20px;   
 }
