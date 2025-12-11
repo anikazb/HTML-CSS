@@ -16,7 +16,7 @@ session_start();
     if (!empty($username) && !empty($password)) {
         
         try {
-            $con = new PDO('mysql:host=localhost;dbname=sessiondb', 'root', '');
+            $con = new PDO('mysql:host=localhost;dbname=sessiondb', 'root', '12345');
             $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             $stmt = "select * from users where uname='$username' && pass='$password'";

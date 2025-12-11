@@ -4,7 +4,7 @@ if (isset($_POST['uname']) && isset($_POST['pass'])) {
     $pass = $_POST['pass'];
 
     try {
-        $con = new PDO("mysql:host=localhost;dbname=sessiondb", "root", "");
+        $con = new PDO("mysql:host=localhost;dbname=sessiondb", "root", "12345");
         $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Insert new user
